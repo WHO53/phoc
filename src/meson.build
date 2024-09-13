@@ -189,7 +189,7 @@ if get_option('gtk_doc')
            symbol_prefix: 'phoc',
        identifier_prefix: 'Phoc',
                 includes: ['Gio-2.0'],
-                 install: false,
+                 install: true,
               extra_args: phoc_gir_extra_args,
             dependencies: [phoc_deps, libphoc_dep],
    )
